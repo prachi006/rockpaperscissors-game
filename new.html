@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Content -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Styles & Fonts -->
+  <link rel="stylesheet" href="new.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon & Title -->
+  <title>Rock, Paper, Scissors</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+</head>
+<body>
+  <div class="hero">
+    <div class = "main-content">
+      <div class = "game-title">
+        <h1>ROCK</h1>
+        <h1>PAPER</h1>
+        <h1>SCISSORS</h1>
+      </div>
+      <div class = "score-board">
+        <div class="score-box">
+          <h2> YOUR <BR>SCORE</h2> <br>
+        </div >
+        <h1 id="score">0</h1>
+      </div>
+    </div>
+    
+    </div>
+      <div class = "score-board2">
+        <div class="score-box">
+          <h2> COMPUTER <BR>SCORE</h2> <br>
+            <div id="scoreS" >0</div>
+    </div>
+    
+    </div>
+
+  <div class="selector">
+    <div class="background-icon background-paper">
+      <div class="selection">
+        <img src = "icons8-hand-64 1.png" id="paper" alt="paper">
+      </div>
+    </div>
+
+    <div class="background-icon background-scissors">
+      <div class="selection">
+        <img src = "17911 1.png" id="scissors" alt="scissors">
+      </div>
+    </div>
+
+    <div class="background-icon background-rock">
+      <div class="selection">
+        <img src = "icons8-fist-67 1.png" id="rock" alt="rock">
+      </div>
+    </div>
+  </div>
+
+  <selection class="in-game" style="display: none;"></selection>
+  
+  <div class="modal" id="simpleModal">
+    <div class="modal-content">
+      <img class="closeBtn" id="closeBtn" src="icon-close.svg" alt="close-button">
+      <h1>RULES</h1>
+      <img class="rulesDisplay" src="Frame 4.png" alt="rules-picture">
+    </div>
+  </div>
+  <h2 class="rulesBtn" id="openBtn" >RULES</h2>
+  <!--
+  <div class="attribution">
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  -->
+
+  <script src="new.js"></script>
+</body>
+</html>
